@@ -1,0 +1,42 @@
+{
+  "seconds_per_step": 0.0024873883998952806,
+  "safety": 1.1,
+  "train_budget_min": 110.0,
+  "n_seeds": 3,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "steps_per_run": 300000,
+  "epochs_per_run": 26.041666666666668,
+  "projected_train_min": 74.62165199685842,
+  "reason": "3 seeds at the default length fit",
+  "run_order": [
+    [
+      4.0,
+      0
+    ],
+    [
+      1.0,
+      0
+    ],
+    [
+      4.0,
+      1
+    ],
+    [
+      1.0,
+      1
+    ],
+    [
+      4.0,
+      2
+    ],
+    [
+      1.0,
+      2
+    ]
+  ],
+  "benchmark_seconds": 3.3716653999872506
+}

@@ -1,0 +1,23 @@
+{
+  "beta": 1.0,
+  "seed": 2,
+  "total_steps": 300000,
+  "batch_size": 64,
+  "lr": 0.01,
+  "latent_dim": 10,
+  "enc_hidden": [
+    1200,
+    1200
+  ],
+  "dec_hidden": [
+    1200,
+    1200,
+    1200
+  ],
+  "optimizer": "Adagrad (lr=1e-2; initial_accumulator_value=0, eps=1e-10, PyTorch defaults)",
+  "n_train": 737280,
+  "log_every": 1000,
+  "ckpt_every": 20000,
+  "torch": "2.14.1+cu130",
+  "device": "NVIDIA GeForce RTX 3080 Ti"
+}
